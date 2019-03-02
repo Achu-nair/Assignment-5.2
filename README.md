@@ -1,19 +1,23 @@
 # Assignment-5.2
 assignments for Acadguild
 
-    vec1 = c(rownames(mtcars[1:15,]))
-    vec2 = c(rownames(mtcars[10:32,]))
+1. obtain the elements of the union between two character
+vectors.
 
-    #union of elements
-    union(vec1,vec2)
+vec1 = c(rownames(mtcars[1:15,]))
+vec2 = c(rownames(mtcars[10:32,]))
 
-    #elements that are common to both vectors
-    intersect(vec1,vec2)
+2. Get those elements that are common to both vectors
 
-    #difference between two character vectors
-    setdiff(vec1,vec2)
+vec1 = c(rownames(mtcars[1:15,]))
+vec2 = c(rownames(mtcars[10:32,]))
 
-    #quality of vectors
-    setequal(vec1,vec2)
+3. Get the difference of the elements between two
+character vectors.
+
+vec1 = c(rownames(mtcars[1:15,]))
+vec2 = c(rownames(mtcars[10:32,]))
+
+
 
 ![](Assignment%205.2.PNG)
